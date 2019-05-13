@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element required="true" type="text" scope="locale">
+            <name>ga_tracking_id</name>
+            <label lang="de">Google-Analytics Tracking ID</label>
+            <label lang="en">Google analytics tracking ID</label>
+            <value></value>
+            <description lang="de">Bitte geben Sie Ihre Google Tracking ID (UA-XXXXXXX) ein.</description>
+            <description lang="en">Please enter your Google tracking ID (UA-XXXXXXX) here.</description>
+        </element>
+
+        <element required="true" type="text" scope="locale">
+            <name>aw_tracking_id</name>
+            <label lang="de">Google AW Nummer</label>
+            <label lang="en">Google AW number</label>
+            <value></value>
+            <description lang="de">Bitte geben Sie hier die Google AW Nummer (AW-XXXXXXXX) ein.</description>
+            <description lang="en">Please enter your Google AW ID (AW-XXXXXXXX) here.</description>
+        </element>
+
+        <element required="true" type="text" scope="locale">
+            <name>aw_tracking_phone_hash</name>
+            <label lang="de">Google Telefon Tracking Hash</label>
+            <label lang="en">Google AW phone tracking hash</label>
+            <value></value>
+            <description lang="de">Bitte geben Sie hier die Alphanumerischen Wert (ohne Google AW Nummer) für das Telefon Conversion Tracking an.</description>
+            <description lang="en">Please enter your hashcode for phone conversion tracking without Google AW number.</description>
+        </element>
+
+        <element required="true" type="text" scope="locale">
+            <name>aw_tracking_number</name>
+            <label lang="de">zu Trackende Telefonnummer</label>
+            <label lang="en">phone number for tracking</label>
+            <value></value>
+            <description lang="de">Bitte geben Sie hier die Telefonnummer im gleichen Format an, wie sie auf der Webseite zu finden ist. (z.B. 0800 - 123456789)</description>
+            <description lang="en">Please enter your Google AW ID with hashcode for phone conversion tracking here.</description>
+        </element>
+
+        <element required="true" type="text" scope="locale">
+            <name>aw_tracking_order_hash</name>
+            <label lang="de">Google Bestellungs Tracking Hash</label>
+            <label lang="en">Google order tracking hash</label>
+            <value></value>
+            <description lang="de">Bitte geben Sie hier die Alphanumerischen Wert (ohne Google AW Nummer) für das Telefon Conversion Tracking an.</description>
+            <description lang="en">Please enter your hashcode for order conversion tracking without Google AW number.</description>
+        </element>
+
+        <element required="true" type="text" scope="locale">
+            <name>fb_tracking_id</name>
+            <label lang="de">Facebook Tracking ID</label>
+            <label lang="en">Facebook tracking ID</label>
+            <value></value>
+            <description lang="de">Bitte geben Sie Ihre Facebook Tracking ID ein.</description>
+            <description lang="en">Please enter your Facebook tracking ID here.</description>
+        </element>
+
+        <element type="textarea">
+            <name>additional_tracking</name>
+            <label lang="de">Zusätzliche Globale Tracking Codes</label>
+            <label lang="en">additional global tracking codes</label>
+            <description lang="de">Fügt den hier hinterlegten Code auf jeder Seite dem Header hinzu.</description>
+            <description lang="en">Adds the code to the header on every page.</description>
+        </element>
+    </elements>
+
+</config>
